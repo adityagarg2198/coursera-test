@@ -1,0 +1,133 @@
+body {
+  font-size: 16px;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #a6a6a6;
+  border-radius: 0;
+  border: 2px solid black;
+}
+.navbar-brand {
+   padding-top: 10px;
+   height: 70px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0d0d0d;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin:0px;
+  padding:10px;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color:#f9a9a9;
+}
+#nav-list a {
+  color: #0d0d0d;
+  text-align: center;
+  border: .5px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0d0d0d;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+/* END FOOTER */
+
+/* HOME PAGE */
+#page-heading {
+  font-size: 175%;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   #content {
+    width:100%;
+    background-color:#a6a6a6;
+    padding:10px;
+   }
+   #menu-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+   }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   #content {
+    width:100%;
+    background-color:#a6a6a6;
+    padding:10px;
+   }
+   #menu-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+   }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #content {
+    width:100%;
+    background-color:#a6a6a6;
+    padding:10px;
+   }
+   #menu-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+   }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ 
+  /* End Header */
+   
+
+  /* Home Page */
+  #content {
+    width:100%;
+    background-color:#a6a6a6;
+    padding:10px;
+   }
+   #menu-title {
+    text-align: center;
+    font-weight: bold;
+
+   }
+  
+}
+
+
+
+
